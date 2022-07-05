@@ -17,19 +17,19 @@ The user can set the schedule for each hour of the day across different time ran
     
 ## Installation
 ```bash
-node index 
+npm index 
  ```
 
 ## Usage
- Put in the time range for the schedule to be generated and then click on any particular schedule , do edits and save it 
+ The current day is displayed at the top of the calendar.The colour coding is provided for different schedule with respect to current time. The colour coding is as follow grey: past, red: present, green : future.The user can set the duration of the schedule by providing start & the end time of the business in the pop-up window. The time should be a number from 1 to 24.After entering the schedule specifics, user may save the schedule by pressing the save button.
  ![Image](./assets/images/work-schedular.png)
 
 ## Contribution
-The project is open source , fork the repo and start contributing .
+It's an open source , just fork the repo and start contributing in it.
     
 ## TestCase
 ```bash
-npm run test 
+npm run test  
  ```
 
 ## License
